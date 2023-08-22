@@ -26,7 +26,7 @@ let resumeData = {
   aboutme:
     "Développeur web junior, j'ai déjà parcouru un chemin professionnel riche et diversifié. Avant de me lancer dans le développement web, j'étais dans la vente. Ces années dans ce milieu m'ont permis de développer de solides compétences relationnelles. De plus, il faut savoir que depuis mon plus jeune âge j'aime énormément le football et j'en ai d'ailleurs pratiqué pendant 15 ans, j'ai donc appris l'importance du travail d'équipe, de la discipline et de l'engagement.",
   address: "France",
-  website: "http://localhost:3000/",
+  website: "https://djameldev.github.io/P8-Portfolio/",
   education: [
     {
       UniversityName: "BTS Services informatiques aux Organisations ",
@@ -73,24 +73,28 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "HTML / CSS",
+      description: "Créez la page d'accueil d'une agence de voyage avec HTML & CSS (responsive)",
+      imgurl: "images/portfolio/booki.png ",
+      link: "https://github.com/DjamelDev/Booki"
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "HTML / CSS / JS",
+      description: "Créez une page web dynamique avec JavaScript",
+      imgurl: "images/portfolio/sophie-bluel.png",
+      link: "https://github.com/DjamelDev/portfoliop3"
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
+      name: "HTML / SCSS / JS",
+      description: "Création d'une application web de location immobilière avec React",
+      imgurl: "images/portfolio/kasa.png",
+      link: "https://github.com/DjamelDev/P6-Kasa"
     },
     {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "HTML / CSS / JS",
+      description: "Développement du back-end d'un site de notation de livres",
+      imgurl: "images/portfolio/mon_vieux_grimoire.png",
+      link: "https://github.com/DjamelDev/P7-Backend"
     },
   ],
   testimonials: [

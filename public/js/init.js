@@ -102,7 +102,7 @@
 /*	Modal Popup
 ------------------------------------------------------*/
 
-    $('.item-wrap a').magnificPopup({
+    $('.item-wrap a').magnificPopup({ // ici ça prend tous les <a ...> qui sont enfant de className="item-wrap" et ça applique managnificPopup
 
        type:'inline',
        fixedContentPos: false,
