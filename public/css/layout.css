@@ -46,13 +46,15 @@ header:before {
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+   backdrop-filter: blur(10px); /* Intensité du flou */
 }
+
 header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 

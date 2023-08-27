@@ -160,7 +160,7 @@ pre {
 
 blockquote,
 q {
-  quotes: "“" "”"; /* Utilisation de guillemets droits (doubles) pour les ouvertures et fermetures */
+  quotes: "“" "”"; 
 }
 
 
@@ -1100,21 +1100,10 @@ properly.
   }
 }
 
-/* mobile narrow
---------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
-  .row {
-    width: auto;
-  }
+.proverbe {
+  width: 300px;
 }
 
-/* larger screens
---------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
-  .wide .row {
-    max-width: 1180px;
-  }
-}
 
 /* ------------------------------------------------------------------ */
 /* e. Others
@@ -1191,4 +1180,118 @@ properly.
 .item-img {
   width: 100%;
   height: 300px;
+}
+
+/* mobile narrow
+--------------------------------------------------------------- */
+@media screen and (min-width: 370px) {
+  .presentation {
+    width: 300px;
+  }
+
+  .twelve {
+    width: 300px;
+  }
+
+  .formations {
+    margin-right: 100px;
+  }
+
+  #resume h3, #resume .info {
+    text-align: left;
+    width: 330px;
+  }
+
+  .formation-describe {
+    width: 320px;
+  }
+
+  .experiences {
+    margin-right: 100px;
+  }
+
+  .experience-describe {
+    width: 320px;
+  }
+
+  .competences {
+    margin-right: 100px;
+  }
+
+  .bars {
+    width: 320px;
+  }
+
+  .proverbe {
+    width: 300px;
+  }
+}
+
+
+
+/* ------------------------------------------------------------------- */
+
+@media screen and (min-width: 700px) {
+
+  .presentation {
+    width: 100%;
+  }
+
+  .twelve {
+    width: 100%;
+  }
+
+  #resume h3, #resume .info {
+    width: 100%;
+    text-align: left;
+  }
+
+  .formations {
+    margin-right: 0;
+  }
+
+  .formation-describe {
+    width: 100%;
+  }
+
+  .experiences {
+    margin-right: 0;
+  }
+
+  .experience-describe {
+    width: 100%;
+  }
+
+  .competences {
+    margin-right: 0;
+  }
+
+  .proverbe {
+    width: 500px;
+  }
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  .presentation {
+    width: 100%;
+  }
+
+  .experiences {
+    margin-right: 0;
+  }
+
+  .experience-describe {
+    width: auto;
+  }
+
+  .wide {
+    max-width: 1180px;
+  }
+
+  .proverbe {
+    width: 1000px;
+  }
 }

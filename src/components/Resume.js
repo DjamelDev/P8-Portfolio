@@ -8,7 +8,7 @@ export default  class Resume extends Component {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Formations</span></h1>
+               <h1><span className='formations'>Formations</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -21,7 +21,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
+                          <p className='formation-describe'>
                           {item.Achievements}
                           </p>
                        </div>
@@ -33,7 +33,7 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Expériences pro</span></h1>
+               <h1><span className='experiences'>Expériences pro</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -46,7 +46,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
+                          <p className='experience-describe'>
                           {item.Achievements}
                           </p>
                        </div>
@@ -63,7 +63,7 @@ export default  class Resume extends Component {
          <div className="row skill">
 
             <div className="three columns header-col">
-               <h1><span>Compétences</span></h1>
+               <h1><span className='competences'>Compétences</span></h1>
             </div>
 
             <div className="nine columns main-col">

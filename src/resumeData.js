@@ -2,14 +2,14 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Djamel Slimani",
   role: "développeur front-end",
-  linkedinId: "https://www.linkedin.com/in/djamel-k-294476289/",
+  linkedinId: "https://www.linkedin.com/in/djamel-s-294476289/",
   skypeid: "Your skypeid",
   roleDescription:
     " J'aime le développement web, j'apprécie vraiment le fait de pouvoir découvrir de nouvelles technologies au quotidien. J'aime également beaucoup le football et jouer à des jeux pendant mon temps libre.",
   socialLinks: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/djamel-k-294476289/",
+      url: "https://www.linkedin.com/in/djamel-s-294476289/",
       className: "fa fa-linkedin",
     },
     {
@@ -30,33 +30,44 @@ let resumeData = {
   education: [
     {
       UniversityName: "BTS Services informatiques aux Organisations ",
-      specialization: "Option B solutions logicielles et applications métiers (SIO SLAM)",
+      specialization:
+        "Option B solutions logicielles et applications métiers (SIO SLAM)",
       MonthOfPassing: "Juin",
       YearOfPassing: "2020",
       Achievements: "Notre Dame de la Paix",
     },
     {
       UniversityName: "Bac pro métiers du commerce et de la vente",
-      specialization: "Option B prospection clientèle et valorisation de l'offre commerciale",
+      specialization:
+        "Option B prospection clientèle et valorisation de l'offre commerciale",
       MonthOfPassing: "Juin",
       YearOfPassing: "2018",
       Achievements: "Notre Dame de la Paix",
     },
+    {
+      UniversityName: "OpenClassrooms",
+      specialization: "Développeur web",
+      MonthOfPassing: "Août",
+      YearOfPassing: "2023",
+      Achievements:
+        "Intégration du contenu et implémentation d'une interface responsive avec HTML et CSS, gestion de projet avec une méthode agile, optimisation des perfomances et debug d'un site web, développement web avec JavaScript, initialisation d'une application avec Create React App, développement des éléments de l'interface d'un site web grâce à React, configuration de la navigation entre les pages de l'application avec React Router, développement back-end avec NodeJS, mettre en oeuvre des opérations CRUD de manière sécurisée et stocker des données de manière sécurisée.",
+    },
   ],
   work: [
-    {
-      CompanyName: "OpenClassrooms",
-      specialization: "Développeur web",
-      MonthOfLeaving: "Août",
-      YearOfLeaving: "2023",
-      Achievements: "8 projets ont dû être validé avant de pouvoir obtenir un diplôme équivalent à un BAC +2.",
-    },
     {
       CompanyName: "Envie de Voyages",
       specialization: "Développeur web",
       MonthOfLeaving: "Février",
       YearOfLeaving: "2020",
-      Achievements: "Création d’un nouveau sites web (https://www.envie-de-voyages.com/), développement d’autres sites web déjà existants, mise en place d’une boutique sécurisée, mise en place de mesures de sécurités (cookies, RGPD…)",
+      Achievements:
+        "Création d’un nouveau sites web (https://www.envie-de-voyages.com/), développement d’autres sites web déjà existants, mise en place d’une boutique sécurisée, mise en place de mesures de sécurités (cookies, RGPD…)",
+    },
+    {
+      CompanyName: "KPital",
+      specialization: "Développeur web",
+      MonthOfLeaving: "Mai",
+      YearOfLeaving: "2019",
+      Achievements: "Création d’un nouveau site web en utilisant un CMS. (Wix)",
     },
   ],
   skillsDescription: "Mes compétences",
@@ -74,34 +85,32 @@ let resumeData = {
   portfolio: [
     {
       name: "HTML / CSS",
-      description: "Créez la page d'accueil d'une agence de voyage avec HTML & CSS (responsive)",
+      description:
+        "Problématique : Reproduire à partir d'une maquette, un site statique en HTML / CSS.",
       imgurl: "images/portfolio/booki.png ",
-      link: "https://github.com/DjamelDev/Booki"
+      link: "https://djameldev.github.io/Booki/",
     },
     {
       name: "HTML / CSS / JS",
-      description: "Créez une page web dynamique avec JavaScript",
+      description: "Problématique : Passer d'un site statique à un site dynamique (récupérer et afficher les projets dynamiquement, faire une page de connexion, créer une modale permettant d'upload de nouveaux médias)",
       imgurl: "images/portfolio/sophie-bluel.png",
-      link: "https://github.com/DjamelDev/portfoliop3"
+      link: "https://github.com/DjamelDev/portfoliop3",
     },
     {
-      name: "HTML / SCSS / JS",
-      description: "Création d'une application web de location immobilière avec React",
+      name: "SASS / React",
+      description:
+        "Problématique : Refonte totale d'un site en front-end avec React. Utilisation de Create React App pour la première fois. Des maquettes Figma sont fournies pour nous aider à faire le design d'interface.",
       imgurl: "images/portfolio/kasa.png",
-      link: "https://github.com/DjamelDev/P6-Kasa"
+      link: "https://github.com/DjamelDev/P6-Kasa",
     },
     {
-      name: "HTML / CSS / JS",
-      description: "Développement du back-end d'un site de notation de livres",
+      name: "Node JS / MongoDB",
+      description: "Problématique : Développement d'un site en back-end avec la partie front-end déjà développée. Je dois effectuer une connexion entre mon API et ma base de données sur MongoDB afin de pouvoir gérer mon espace users ainsi que mon espace books. Je dois aussi prendre connaissance du document de spécifications techniques de l’API.",
       imgurl: "images/portfolio/mon_vieux_grimoire.png",
-      link: "https://github.com/DjamelDev/P7-Backend"
+      link: "https://github.com/DjamelDev/P7-Backend",
     },
   ],
   testimonials: [
-    {
-      description: "Je ne perds jamais. Soit je gagne, soit j'apprends.",
-      name: "Nelson Mandela",
-    },
     {
       description:
         "Dans 20 ans, tu seras plus déçu par les choses que tu n'as pas faites que par celles que tu auras faites. Alors, sors des sentiers battus. Mets les voiles. Explore. Rêve. Découvre.",
