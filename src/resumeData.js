@@ -1,15 +1,15 @@
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
-  name: "Djamel Slimani",
+  name: "Djamel Kebdani",
   role: "développeur front-end",
-  linkedinId: "https://www.linkedin.com/in/djamel-s-294476289/",
+  linkedinId: "https://www.linkedin.com/in/djamel-k-294476289/",
   skypeid: "Your skypeid",
   roleDescription:
     " J'aime le développement web, j'apprécie vraiment le fait de pouvoir découvrir de nouvelles technologies au quotidien. J'aime également beaucoup le football et jouer à des jeux pendant mon temps libre.",
   socialLinks: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/djamel-s-294476289/",
+      url: "https://www.linkedin.com/in/djamel-k-294476289/",
       className: "fa fa-linkedin",
     },
     {

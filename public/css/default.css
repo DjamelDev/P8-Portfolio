@@ -160,9 +160,8 @@ pre {
 
 blockquote,
 q {
-  quotes: "“" "”"; 
+  quotes: "“" "”";
 }
-
 
 blockquote:before,
 blockquote:after,
@@ -624,7 +623,6 @@ dd {
   color: #a9adb2;
 }
 
-
 /*  5. Images  --------------------------------------------------------- */
 
 img {
@@ -1039,7 +1037,6 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
   .row {
-    width: 460px;
     margin: 0 auto;
     padding: 0;
   }
@@ -1103,7 +1100,6 @@ properly.
 .proverbe {
   width: 300px;
 }
-
 
 /* ------------------------------------------------------------------ */
 /* e. Others
@@ -1197,7 +1193,8 @@ properly.
     margin-right: 100px;
   }
 
-  #resume h3, #resume .info {
+  #resume h3,
+  #resume .info {
     text-align: left;
     width: 330px;
   }
@@ -1227,12 +1224,17 @@ properly.
   }
 }
 
+/* ------------------------------------------------------------------- */
 
+@media screen and (min-width: 530px) {
+  .proverbe {
+    width: 430px;
+  }
+}
 
 /* ------------------------------------------------------------------- */
 
 @media screen and (min-width: 700px) {
-
   .presentation {
     width: 100%;
   }
@@ -1241,7 +1243,8 @@ properly.
     width: 100%;
   }
 
-  #resume h3, #resume .info {
+  #resume h3,
+  #resume .info {
     width: 100%;
     text-align: left;
   }
@@ -1267,14 +1270,13 @@ properly.
   }
 
   .proverbe {
-    width: 500px;
+    width: 600px;
   }
 }
 
 /* larger screens
 --------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
-
   .presentation {
     width: 100%;
   }
